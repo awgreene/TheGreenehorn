@@ -2,7 +2,8 @@ var express    = require("express"),
     app        = express(),
     bodyParser = require("body-parser");
 
-var indexRoutes = require("./routes/index");
+var indexRoutes = require("./routes/index"),
+    blogRoutes = require("./routes/blogs");
 
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(express.static(__dirname + "/public"))
@@ -10,6 +11,7 @@ app.set("view engine", "ejs");
 
 
 app.use(indexRoutes);
+app.use("/blogs", blogRoutes);
 
 app.listen(3001, "localhost", function() {
   var IP = "localhost";

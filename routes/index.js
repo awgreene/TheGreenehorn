@@ -1,14 +1,24 @@
 var express = require("express");
 var router = express.Router();
 
-// ROOT ROUTE
+// LANDING ROUTE
 router.get("/", function(req, res) {
-    res.render("landing");
+  res.render("landing");
 });
 
-// ROOT ROUTE
+// HOME ROUTE
 router.get("/home", function(req, res) {
-    res.render("home");
+  res.render("home");
+});
+
+// ABOUT ROUTE
+router.get("/about", function(req, res) {
+  res.render("about");
+});
+
+// CONTACT ROUTE
+router.get("/contact", function(req, res) {
+  res.render("contact");
 });
 
 module.exports = router;
