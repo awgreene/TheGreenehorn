@@ -1,0 +1,25 @@
+{
+  "name": "thegreenehorn",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awgreene/TheGreenehorn.git"
+  },
+  "keywords": [
+    "Personal",
+    "Website",
+    "Blog",
+    "Tutorial"
+  ],
+  "author": "Alexander W. Greene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awgreene/TheGreenehorn/issues"
+  },
+  "homepage": "https://github.com/awgreene/TheGreenehorn#readme"
+}
