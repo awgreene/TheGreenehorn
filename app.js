@@ -1,14 +1,18 @@
-var express    = require("express"),
+var bodyParser = require("body-parser"),
+    mongoose   = require("mongoose");
+    express    = require("express"),
     app        = express(),
-    bodyParser = require("body-parser");
 
+mongoose.connect("mongodb://localhost/theGreenehorn");
+
+// Routes
 var indexRoutes = require("./routes/index"),
     blogRoutes = require("./routes/blogs");
 
-app.use(bodyParser.urlencoded({extended : true}));
-app.use(express.static(__dirname + "/public"))
+// App config
 app.set("view engine", "ejs");
-
+app.use(bodyParser.urlencoded({extended : true}));
+app.use(express.static(__dirname + "/public"));
 
 app.use(indexRoutes);
 app.use("/blogs", blogRoutes);

@@ -1,6 +1,7 @@
 body {
   background-color: #F8F8F8;
 }
+
 .navbar {
   margin-bottom:0;
 }
@@ -25,34 +26,42 @@ body {
   padding-left: 50px;
 }
 
+.content {
+  color: #fff;
+  background-color: #bcc4cd;
+  padding: 30px 0 50px 0;
+}
+
 .footer{
-  background-color: #F8F8F8;
-  border-color: #e7e7e7;
   color: #777;
   padding: 30px;
   height: 200px;
 }
 
-.footer h1{
+.footer h1 {
   padding: 0;
   margin: 0;
 }
 
 .footer hr {
+  padding: 0px;
   background-color: #f0f0f0;
   height: 3px;
   width: 70%;
-  padding: 0px;
-  margin: 2px 0 10px 0;
 }
 
+.contact hr {
+  margin-top: 2px;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.follow hr {
+  margin-top: 2px;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
 
 .footer i {
   font-size: 2.5em;
-}
-
-.content {
-  color: #fff;
-  background-color: #bcc4cd;
-  padding: 30px 0 50px 0;
 }

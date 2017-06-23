@@ -2,6 +2,14 @@
   <div class="container-fluid content">
     <div class="container">
     <h1>WELCOME TO THE BLOGS PAGE!</h1>
+    <% blogs.forEach(function(blog){ %>
+      <div>
+        <h2><%= blog.title %></h2>
+        <img src="<%= blog.image %>">
+        <span><%= blog.created %></span>
+        <p><%= blog.body %></p>
+      </div>
+    <% }); %>
     </div>
   </div>
 <% include partials/footer %>
