@@ -26,14 +26,35 @@ body {
   padding-left: 50px;
 }
 
-.content {
-  color: #fff;
-  background-color: #bcc4cd;
+.content1 {
+  color: #000;
+  background-color: #f6f6f6;
   padding: 30px 0 50px 0;
 }
 
+.content1 input {
+  color: #000;
+}
+
+.content2 {
+  color: #fff;
+  background-color: #555F72;
+  padding: 30px 0 50px 0;
+}
+
+.content2 input {
+  color: #000;
+}
+
+.thumbnail img {
+  min-height:200px;
+  height:20px;
+  width:
+}
+
 .footer{
-  color: #777;
+  color: #000020;
+  background-color: #99C3C8;
   padding: 30px;
   height: 200px;
 }
@@ -45,7 +66,8 @@ body {
 
 .footer hr {
   padding: 0px;
-  background-color: #f0f0f0;
+  border-color: #000020;
+  background-color: #000020;
   height: 3px;
   width: 70%;
 }

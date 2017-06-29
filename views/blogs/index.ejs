@@ -1,0 +1,26 @@
+<% include ../partials/header %>
+  <div class="container-fluid content">
+    <div class="container blogs">
+    <h1>WELCOME TO THE BLOGS PAGE!</h1>
+    <% blogs.forEach(function(blog){ %>
+      <div class="row">
+        <div class="col-sm-12">
+          <h1><%= blog.title %></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="<%= blog.image %>" alt="Picture">
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <span><strong><%= blog.created %></strong></span>
+          <p><%= blog.body %></p>
+        </div>
+      </div>
+      <hr class="test"/>
+    <% }); %>
+    </div>
+  </div>
+<% include ../partials/footer %>
