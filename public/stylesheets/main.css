@@ -82,6 +82,9 @@ a {
 /*==============================================
 / Blog Styling
 /=============================================*/
+.thumbnail {
+  background-color: #FFDF00;
+}
 .thumbnail img {
   min-height:20px;
   height:200px;
