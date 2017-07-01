@@ -2,6 +2,9 @@ body {
   background-color: #F8F8F8;
 }
 
+/*==============================================
+/ Header Styling
+/=============================================*/
 .navbar {
   margin-bottom:0;
 }
@@ -26,24 +29,25 @@ body {
   padding-left: 50px;
 }
 
-.content1 {
-  color: #000;
-  background-color: #f6f6f6;
-  padding: 30px 0 50px 0;
-}
-
-.content1 input {
-  color: #000;
-}
-
-.content2 {
+/*==============================================
+/ Color Schemes
+/=============================================*/
+.color-scheme-0 {
   color: #fff;
   background-color: #555F72;
-  padding: 30px 0 50px 0;
 }
 
-.content2 input {
+.color-scheme-1 {
   color: #000;
+  background-color: #f6f6f6;
+}
+
+/*==============================================
+/ Blog Styling
+/=============================================*/
+
+.vertical-spacing-30 {
+  padding: 30px 0 30px 0;
 }
 
 .thumbnail img {
@@ -52,6 +56,17 @@ body {
   width:
 }
 
+/*==============================================
+/ Form Styling
+/=============================================*/
+
+input {
+  color: #000;
+}
+
+/*==============================================
+/ Footer Styling
+/=============================================*/
 .footer{
   color: #000020;
   background-color: #99C3C8;
@@ -72,6 +87,10 @@ body {
   width: 70%;
 }
 
+.footer i {
+  font-size: 2.5em;
+}
+
 .contact hr {
   margin-top: 2px;
   margin-left: 0;
@@ -82,8 +101,4 @@ body {
   margin-top: 2px;
   margin-right: 0;
   margin-bottom: 10px;
-}
-
-.footer i {
-  font-size: 2.5em;
 }

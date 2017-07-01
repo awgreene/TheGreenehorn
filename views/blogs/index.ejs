@@ -1,26 +1,28 @@
 <% include ../partials/header %>
-  <div class="container-fluid content">
-    <div class="container blogs">
+  <div class="container">
     <h1>WELCOME TO THE BLOGS PAGE!</h1>
-    <% blogs.forEach(function(blog){ %>
-      <div class="row">
-        <div class="col-sm-12">
-          <h1><%= blog.title %></h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="thumbnail">
-            <img src="<%= blog.image %>" alt="Picture">
+  </div>
+  <% for(var i = 0; i < blogs.length; i++) {%>
+    <div class="blog-preview color-scheme-<%= i%2%> vertical-spacing-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1><%= blogs[i].title %></h1>
           </div>
         </div>
-        <div class="col-sm-8">
-          <span><strong><%= blog.created %></strong></span>
-          <p><%= blog.body %></p>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="<%= blogs[i].image %>" alt="Picture">
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <span><strong><%= blogs[i].created %></strong></span>
+            <p><%= blogs[i].body %></p>
+            <a href="/blogs/<%= blogs[i]._id%>" class="btn btn-primary">Read more</a>
+          </div>
         </div>
       </div>
-      <hr class="test"/>
-    <% }); %>
     </div>
-  </div>
+  <% }; %>
 <% include ../partials/footer %>

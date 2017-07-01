@@ -33,7 +33,7 @@ router.post("/", function(req, res){
 router.get("/:id", function(req, res) {
   Blog.findById(req.params.id, function(err, foundBlog) {
     if(err){
-      res.redirect("/");
+      res.redirect("/blogs");
     } else {
       res.render("blogs/show", {blog:foundBlog});
     }
