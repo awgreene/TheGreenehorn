@@ -91,10 +91,10 @@ a {
 .hr-style-1 {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, #2d5986, #f0f0f0, #2d5986);
-  background-image: -moz-linear-gradient(left, #2d5986, #f0f0f0, #2d5986);
-  background-image: -ms-linear-gradient(left, #2d5986, #f0f0f0, #2d5986);
-  background-image: -o-linear-gradient(left, #2d5986, #f0f0f0, #2d5986);
+  background-image: -webkit-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
+  background-image: -moz-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
+  background-image: -ms-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
+  background-image: -o-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
 }
 
 /*==============================================
