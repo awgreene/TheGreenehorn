@@ -1,9 +1,14 @@
+/*==============================================
+/ Default Styling
+/=============================================*/
+
 body {
   background-color: #F8F8F8;
+  color: #FFF;
 }
 
-a {
-  color: #2d5986;
+input {
+  color: #000;
 }
 
 /*==============================================
@@ -37,23 +42,19 @@ a {
 / Color Schemes
 /=============================================*/
 .color-scheme-0 {
-  color: #fff;
-  background-color: #555F72;
+  background-color: #67AECA;
 }
 
 .color-scheme-1 {
-  color: #000;
-  background-color: #f6f6f6;
+  background-color: #675682;
 }
 
 .color-scheme-2 {
-  color: #000020;
-  background-color: #99C3C8;
+  background-color: #E52A6F;
 }
 
 .color-scheme-3 {
-  color: #FFDF00;
-  background-color: #2d5986;
+  background-color: #5F0F4E;
 }
 
 /*==============================================
@@ -82,9 +83,6 @@ a {
 /*==============================================
 / Blog Styling
 /=============================================*/
-.thumbnail {
-  background-color: #FFDF00;
-}
 .thumbnail img {
   min-height:20px;
   height:200px;
@@ -94,18 +92,10 @@ a {
 .hr-style-1 {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
-  background-image: -moz-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
-  background-image: -ms-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
-  background-image: -o-linear-gradient(left, #2d5986, #FFDF00, #2d5986);
-}
-
-/*==============================================
-/ Form Styling
-/=============================================*/
-
-input {
-  color: #000;
+  background-image: -webkit-linear-gradient(left, #67AECA, #FFF, #67AECA);
+  background-image: -moz-linear-gradient(left, #67AECA, #FFF, #67AECA);
+  background-image: -ms-linear-gradient(left, #67AECA, #FFF, #67AECA);
+  background-image: -o-linear-gradient(left, #67AECA, #FFF, #67AECA);
 }
 
 /*==============================================
@@ -125,8 +115,8 @@ footer hr {
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 10px;
-  border-color: #000020;
-  background-color: #000020;
+  border-color: #FFF;
+  background-color: #FFF;
   height: 3px;
   width: 30%;
 }
