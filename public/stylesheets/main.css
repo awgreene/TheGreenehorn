@@ -7,6 +7,10 @@ body {
   color: #FFF;
 }
 
+a {
+  color: #FFF;
+}
+
 input {
   color: #000;
 }
@@ -42,19 +46,23 @@ input {
 / Color Schemes
 /=============================================*/
 .color-scheme-0 {
-  background-color: #67AECA;
+  background-color: #D5DSD5;
+  color: #000;
 }
 
 .color-scheme-1 {
-  background-color: #675682;
+  background-color: #9099A2;
 }
 
 .color-scheme-2 {
-  background-color: #E52A6F;
+  background-color: #6D7993;
+  border-color: #FFF;
 }
 
 .color-scheme-3 {
-  background-color: #5F0F4E;
+  background-color: #96858F;
+  border-color: #FFF;
+  color: #FFF;
 }
 
 /*==============================================
@@ -92,10 +100,10 @@ input {
 .hr-style-1 {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, #67AECA, #FFF, #67AECA);
-  background-image: -moz-linear-gradient(left, #67AECA, #FFF, #67AECA);
-  background-image: -ms-linear-gradient(left, #67AECA, #FFF, #67AECA);
-  background-image: -o-linear-gradient(left, #67AECA, #FFF, #67AECA);
+  background-image: -webkit-linear-gradient(left, #6D7993, #FFF, #6D7993);
+  background-image: -moz-linear-gradient(left, #6D7993, #FFF, #6D7993);
+  background-image: -ms-linear-gradient(left, #6D7993, #FFF, #6D7993);
+  background-image: -o-linear-gradient(left, #6D7993, #FFF, #6D7993);
 }
 
 /*==============================================
