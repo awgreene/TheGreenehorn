@@ -21,4 +21,9 @@ router.get("/contact", function(req, res) {
   res.render("contact");
 });
 
+// Blogs ROUTE
+router.get("/blogs", function(req, res) {
+  res.render("blogs");
+});
+
 module.exports = router;
