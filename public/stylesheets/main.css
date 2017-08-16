@@ -3,8 +3,18 @@
 /=============================================*/
 
 body {
-  background-color: #F8F8F8;
+  background-color: #6D7993;
   color: #FFF;
+  font-family: 'Roboto', serif;
+}
+
+h1,h2,h3 {
+  font-family:'Vollkorn', serif;
+}
+
+
+p{
+  font-size: 16px;
 }
 
 a {
@@ -41,12 +51,39 @@ input {
 .jumbotron p {
   padding-left: 50px;
 }
+/*==============================================
+/ Button Colors
+/=============================================*/
+.btn-transition-black {
+  color: #000;
+  border-color: #000;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
 
+.btn-transition-black:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+.btn-transition-white {
+  color: #FFF;
+  border-color: #FFF;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+.btn-transition-white:hover {
+  background-color: #FFF;
+  color: #000;
+}
 /*==============================================
 / Color Schemes
 /=============================================*/
+
+
 .color-scheme-0 {
-  background-color: #D5DSD5;
+  background-color: #F8F8F8;
   color: #000;
 }
 
@@ -83,9 +120,14 @@ input {
   padding-bottom: 20px;
 }
 
-.vertical-padding-30 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.vertical-padding-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.vertical-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /*==============================================
