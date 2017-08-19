@@ -20,6 +20,16 @@ input {
   color: #000;
 }
 
+a {
+  color: #0f659e;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #137FC6;
+  text-decoration: none;
+}
+
 /*==============================================
 / Header Styling
 /=============================================*/
@@ -85,10 +95,6 @@ input {
   color: #000;
 }
 
-.color-scheme-0 a {
-  color: #000;
-}
-
 .color-scheme-1 {
   background-color: #9099A2;
 }
@@ -98,20 +104,10 @@ input {
   border-color: #FFF;
 }
 
-.color-scheme-2 a {
-  color: #FFF;
-}
-
 .color-scheme-3 {
   background-color: #96858F;
   border-color: #FFF;
   color: #FFF;
-}
-
-a:hover {
-  cursor: pointer;
-  color: #137FC6;
-  text-decoration: none;
 }
 
 /*==============================================
